@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="logic.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- HEADER -->
+
+  <header>
+    <div id="home">
+      <!-- here is the nav bar -->
+      <div class="nav-bar">
+        <img src="logo.jpg" alt="logo" id="mylogo" />
+
+        <div class="nav-list" id="menulist">
+          <ul>
+            <i class="fa-solid fa-xmark" id="close" onclick="closemenu()"></i>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#involvements">Involvements</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" id="menu" onclick="openmenu()"></i>
+      </div>
+
+      <!-- here is the intro text -->
+      <div class="nav">
+        <div class="nav-text">
+          <p>Web Designer</p>
+          <h1>
+            Hello, I'm <span style="color: goldenrod">Utkarsh</span><br/>
+            Singhal from IITK
+          </h1>
+        </div>
+
+        <div class="nav-image">
+          <!-- image is added here -->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- about section-->
+
+  <div id="about">
+    <div class="about-image">
+  
+    <div class="about-text">
+      <h1 style="color: #ababab;">About Me</h1>
+      <br>
+      <p>Hello, My name is Utkarsh Singhal ,Y22 in IITK, so I have done my first year very well and happily and here I
+        am developing web development skills in the end-sem holidays,I would like to see you my work</p>
+      <br>
+
+      <div class="about-list">
+        <ul>
+          <li class="tab-link" id="education" onclick="educations()">Education</li>
+          <li class="tab-link" id="achivement" onclick="achivements()">Achivements</li>
+          <li class="tab-link" id="project" onclick="projects()">Projects</li>
+        </ul>
+      </div>
+  </div>
+
+      <div class="list-content">
+
+        <div id="education_content" class="tab-content" style="display:block">
+          <p class="first-line">UG</p>
+          <p>2022: Y22 UG in IIT Kanpur </p>
+
+          <br>
+          <p class="first-line">12th</p>
+          <p>2021: 97.6% in 12th class in CSBE board</p>
+
+          <br>
+          <p class="first-line">10th</p>
+          <p>2019: 98.2% in 10th class in CBSE board</p>
+        </div>
+
+        <div id="achivement_content" class="tab-content">
+          <p class="first-line">Team</p>
+          <p>Junior Member in Motorsports team in electronics subsystem</p>
+
+          <br>
+          <p class="first-line">Club</p>
+          <p>Secy in Electronics Club</p>
+
+          <br>
+          <p class="first-line">Acads</p>
+          <p>Secured 8.14 cpi in my first year</p>
+        </div>
+
+        <div id="project_content" class="tab-content">
+          <p class="first-line">Snt Project</p>
+          <p>Desktopography under Electronics Club</p>
+
+          <br>
+          <p class="first-line">Stamatics Project</p>
+          <p>ClassifyMasters: Intro to Supervise Machine Learning</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Skills section -->
+
+  <div id="skills">
+
+    <h1 style="color: whitesmoke; padding: 5vh 10vw; font-size:2.5rem">My Skills</h1>
+    <div class="skill-content">
+
+      <div class="skills-box">
+        <div class="skill-first" style="display: flex">
+          <i class="fa-brands fa-html5"></i>
+          <h2>HTML</h2>
+        </div>
+        <br><br>
+        <p>HTML is the Hyper Text Markup Language for Web pages. With HTML you can create your own Website. HTML is easy
+          to learn - You will enjoy it! </p>
+        <br><br>
+        <a href="https://www.youtube.com/watch?v=k7ELO356Npo">Learn more</a>
+      </div>
+
+      <div class="skills-box">
+        <div class="skill-first" style="display: flex">
+          <i class="fa-brands fa-css3"></i>
+          <h2>CSS</h2>
+        </div>
+        <br><br>
+        <p>CSS stands for "Cascading Style Sheet". CSS is the language we use to style an HTML document. CSS describes
+          how HTML elements should be displayed.</p>
+        <br><br>
+        <a href="https://www.youtube.com/watch?v=ESnrn1kAD4E">Learn more</a>
+      </div>
+
+      <div class="skills-box">
+        <div class="skill-first" style="display: flex">
+          <i class="fa-brands fa-square-js"></i>
+          <h2>JavaScript</h2>
+        </div>
+        <br><br>
+        <p>JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the
+          World Wide Web, alongside HTML and CSS, It adds logic to your program.</p>
+        <br><br>
+        <a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg">Learn more</a>
+      </div>
+    </div>
+
+  </div>
+  <button class="button">
+    <a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg">Resources</a>
+  </button>
+  </div>
+
+  <!-- Involvements -->
+
+  <div id="involvements">
+    <h1 id="involve-head">My Involvements</h1>
+
+    <div class="in-content">
+
+      <div class="box" style="background-image: url('motorsports2.jpeg');">
+        <div class="box-text">
+          <div class="in-text">
+              <h3>IITKMS</h3>
+              <p>SAE IIT Kanpur is a team of dedicated students who work towards the ultimate goal of building a ‘Racecar’
+              </p>
+              <a href="https://www.iitk.ac.in/ame/sae/">
+              <i class="fa-solid fa-up-right-from-square"></i>
+              </a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="box" style="background-image: url('E3.webp');">
+        <div class="box-text">
+          <div class="in-text">
+            <h3>Electronics Club</h3>
+            <p>Electronics Club has the objective of inculcating a spirit of developing innovative, cutting edge
+            technology solutions to real life problems.</p>
+            <a href="http://eclub.iitk.ac.in/">
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- contact section -->
+
+  <div id="contact">
+
+    <div class="contact-left">
+      <h1 style="color: whitesmoke;">Contact me</h1>
+      <p id="email">
+        <i class="fa-solid fa-envelope"></i>
+        sutkarsh22@iitk.ac.in
+      </p>
+      <p id="phone">
+        <i class="fa-solid fa-phone"></i>
+        7983740084
+      </p>
+
+      <p class="social-icon">
+        <a href="https://www.linkedin.com/in/utkarsh-singhal-175545250"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/utkarsh_singhal1157/"><i class="fa-brands fa-instagram"></i></a>
+      </p>
+
+      <p>
+
+        <button class="submit">
+          <a href="" download>Download CV</a>
+        </button>
+        <!-- work on this -->
+      </p>
+    </div>
+
+    <div class="contact-right">
+      <form name='submit-to-google-sheet'>
+        <input type="text" id="name" name="Name" placeholder="Your name" required;">
+        <input type="email" id="email" name="Email" placeholder="Your email" required>
+        <textarea id="comment" cols="30" name="Comment" rows="7" placeholder="Any comments"></textarea>
+        <button class="submit">Submit</button>
+      </form>
+      <span id="msg"></span>
+    </div>
+  </div>
+
+<script>
+
+ let navlist=document.getElementById('menulist');
+ let menu= document.getElementById('menu');
+
+ function closemenu(){
+    navlist.style.display = 'none';
+    menu.style.display ='block';
+}
+
+function openmenu()
+{
+  menu.style.display= 'none';
+  navlist.style.display = 'block';
+}
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxYRKTrEP9upj6hU6SDfkF2CA88PTkoDeFjZTLQvjJd4-ZVVQV79Nge5o10ptKLFDTVEw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg");
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML = "";
+        },2000)
+      form.reset()
+      })
+
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+
+</html>
