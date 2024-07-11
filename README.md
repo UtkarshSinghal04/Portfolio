@@ -4,7 +4,7 @@ Welcome to my personal portfolio! This project was initially created during my f
 
 ## About Me
 
-I am currently a student at IIT Kanpur, pursuing a degree in Economics. My interests lie at the intersection of finance and technology, inspired by my coursework in International Finance and Investment. I am actively involved in various academic and extracurricular activities, constantly seeking opportunities to learn and grow.
+I am currently a student at IIT Kanpur, pursuing a degree in Economics. I am actively involved in various academic and extracurricular activities, constantly seeking opportunities to learn and grow.
 
 ## Portfolio Features
 
